@@ -15,7 +15,7 @@ public class SecureAESCustomKey {
     private final byte[] key;
     //
     private final SecureRandom secureRandom = new SecureRandom();
-    // 使用字符数组存储敏感数据
+    // 密钥
     private static char[] keyChars = "我的超级安全密钥123!@#".toCharArray();
     // 需要加密的原文字符数组
     private static char[] originalTextChars = "我是一个粉刷匠，粉刷本领强"
